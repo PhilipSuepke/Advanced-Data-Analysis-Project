@@ -58,7 +58,7 @@ def stem_words(stopwords_removed):
 
     #Methode zum exportieren der Ergbnisse
 def save_results(top_five_user, top_five_hashtags, top_topics):
-    with open("save_result6.txt", "w") as file:
+    with open("save_result.txt", "w") as file:
         result=""
         for topic in top_topics:
             result+="Thema " + str(topic[0])+": \n\t"
